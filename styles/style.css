@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'Licorice';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/licorice/v1/t5tjIR8TMomTCAyjNn2wjKM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/worksans/v8/QGYsz_wNahGAdqQ43Rh_fKDp.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+  }
+  
+@font-face {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rj.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+  }
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h2,h3,p{
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+}
+/*home page*/
+/* navigation styling*/
+.nav-link{
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 4px;
+    color: black !important;
+    letter-spacing: 2px;
+}
+.nav-link:hover{
+    color: #048A81 !important;
+    font-weight: bold;
+    border-bottom: 5px solid #048A81;
+}
+.last{
+    margin-right: 150px;
+}
+.logo{
+    width: 15%;
+    margin-left: 80px;
+}
+/*intro styling*/
+.intro{
+    background-image: url("../assets/intro-photo-cropped-2.jpg");
+    background-color: #048A81;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 42em;
+}
+.intro h1{
+    color: white;
+    font-size: 6em;
+    font-weight: bold;
+}
+.chantal-coral{
+    color:#F96C62;
+}
+.intro p{
+    color: white;
+    font-size: 2em;
+    margin-left: 3.5em;
+}
+.left-center-1{
+    margin-left: .5em;
+    margin-top: 2em;
+}
+.left-center-2 {
+    margin-left: 1em;
+}
+/*my summary styling*/
+.about-margin{
+    margin: 150px;
+}
+.sm-margin{
+    margin:50px;
+}
+.sm-about{
+    width: 100%;
+}
+.white-underline{
+    color: white;
+}
+.cursive-intro{
+    font-family: 'Licorice', cursive;
+    font-size: 80px;
+}
+/*background color stying*/
+.coral-bg{
+    background-color: #F96C62;
+}
+.gray-bg{
+    background-color: #fafafa;
+}
+.blue-bg{
+    background-color: #4CB5AE;
+}
+/*design and development home section styling*/
+/*styles the photo*/
+.phone-assets{
+    max-width: 100%;
+}
+/* creates space and centers text*/
+.margin-auto{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.line-height{
+    line-height: 40px;
+}
+/*
+.cat-box h2{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.cat-box p{
+    font-size: 1.3em;
+}*/
+/*button styles*/
+.btn{
+    color: white;
+    background-color: #40761e;
+    border: 1px solid #40761e;
+}
+.btn:hover{
+    background-color:#61B22E ;
+    border: 2px solid #61B22E; 
+}
+.button:active{
+    background-color: #ECBB09;
+    border: 2px solid #ECBB09; 
+}
+.app-photo{
+    width: 50.70%;
+}
+.skill-container{
+    background-color: #048A81;
+    padding-top: 20px;
+}
+.skill-container h2{
+    color: white;
+    padding: 10px 0px;
+}
+.skill-header{
+    font-size: 50px;
+    margin: 0px 0px 50px 120px;
+}
+.card-container{
+    padding: 30px 0px;
+}
+/*
+.contact{
+    color: black !important;
+    background-color: #fafafa;
+}*/
+/*contact form styling*/
+.contact-form{
+    max-width: 75%;
+    padding: 1em;
+}
+.input-pad{
+    padding: 1em;
+}
+/* get in touch styling*/
+.get-in-touch{
+    padding: 7em 7em 0em 7em;
+}
+.get-in-touch h1{
+    font-size: 6em;
+}
+/*styling of the facebook and linkedin icon*/
+.social-logo{
+    max-width: 100%;
+}
+/*///////////////////////////////////////////////////*/
+/*projects page stying*/
+/*project banner styling*/
+
+.projects{
+    background-image: url("../assets/projects-background-1200.png");
+    background-color: #F96C62;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 32em;
+    color: black;
+}
+.projects h1{
+    font-size:4em;
+    font-weight: bold;
+    z-index: 1;
+}
+.rectangle{
+    height: 15em;
+    width: 40em;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+}
+/*project list section*/
+.project-des{
+    color:#048A81;
+}
+.project-name h2{
+    font-size: 5em;
+}
+.project-name a {
+    margin-top: 5em;
+}
+.project-name p{
+    font-size: 1.5em;
+}
+/*footer styling*/
+.footer-icon{
+    max-width: 5%;
+}
+/*/////////////////////////////*/
+/*YouNite page*/
+.younite-intro{
+    background-image: url("../assets/younite-header-800.png");
+    background-color: #048a81;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 80%;
+    min-height: 35em;
+}
+.rectangle-younite{
+    height: 15em;
+    width: 40em;
+    background-color: rgba(4, 138, 129,.5);
+    border-radius: 25px;
+    display: flex;
+    color: white;
+}
+.younite-intro h1{
+    font-size: 5em;
+}
+.min-thirty-five{
+    min-height: 35em;
+}
+.synopsis h2{
+    font-size: 3em;
+}
+.header-padding{
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.initial-img{
+    max-width: 75%;
+}
+/*/////////////////////////////*/
+/*MyFlorida Style Guide page*/
+.style-guide-intro{
+    background-image: url("../assets/style-guide-intro-img.png");
+    background-color: #048a81;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 80%;
+    min-height: 35em;
+}
+.bottom-padding{
+    padding-bottom: 20px;
+}
+
+/*/////////////////////////////*/
+/*Fresh Eats page*/
+/*
+.works-header{
+    background-color:#048A81;
+    padding: 80px;
+    color: white;
+    font-family: 'Licorice', cursive;
+}
+.works-header h1{
+    font-size: 90px;
+}
+.work-cat{
+    background-color: #fafafa;
+    color: #F96C62;
+    padding: 30px;
+}
+.work-cat h2{
+    font-size: 60px;
+}
+.tool{
+    margin: 20px 0px;
+}
+.project-img{
+    max-height: 300px;
+}
+.scroll-img{
+    margin-bottom: 15px;
+}
+.web-img{
+    max-width: 80%;
+}
+footer{
+    padding: 20px;
+    background-color: #fafafa;
+}*/
+
+
+
